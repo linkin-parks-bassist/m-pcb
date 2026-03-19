@@ -1,9 +1,9 @@
-# M-PCB
-![KiCad](docs/resources/m_pcb.png)
+# Kestrel PCB
+![KiCad](docs/resources/pcb.png)
 
 ## Overview
 
-This repository contains the KiCad design files for the main PCB used in M - The Everything Pedal. The board integrates power distribution, audio I/O, and connectors for the FPGA DSP module, ESP32 control module, and a 5" LCD interface.
+This repository contains the KiCad design files for the main PCB used in Kestrel. The board integrates power distribution, audio I/O, and connectors for the Kestrel Core DSP module, Kestrel Interface control module, and a 5" LCD interface.
 
 The PCB serves as the main carrier board for the system, providing regulated power rails, audio input/output stages, and interconnects between the DSP core, UI processor, and display.
 
@@ -40,13 +40,12 @@ This repository contains:
 
 ## Related projects
 
-This board is part of M: The Everything Pedal. Other repos in this project include
+This board is part of Kestrel. Other repos in this project include
 
- - [Main repo](https://github.com/linkin-parks-bassist/m)
- - [MCU  repo](https://github.com/linkin-parks-bassist/m-interface)
- - [FPGA repo](https://github.com/linkin-parks-bassist/m-fpga)
- 
- 
+- [Main repo](https://github.com/linkin-parks-bassist/kestrel)
+- [MCU repo](https://github.com/linkin-parks-bassist/kestrel-interface)
+- [FPGA repo](https://github.com/linkin-parks-bassist/kestrel-core)
+
 ## License
 
 GNU GPL 3.0
